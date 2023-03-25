@@ -1,0 +1,28 @@
+{
+  "name": "coding-tree",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "dev": "~/.nvm/versions/node/v12.22.6/bin/docsify serve --open ./",
+    "live": "live-server",
+    "start": "http-server -o / -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mouday/coding-tree.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mouday/coding-tree/issues"
+  },
+  "homepage": "https://github.com/mouday/coding-tree#readme",
+  "devDependencies": {
+    "docsify": "^4.12.2",
+    "http-server": "^14.1.0"
+  },
+  "dependencies": {}
+}
